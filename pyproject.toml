@@ -1,0 +1,17 @@
+[project]
+name = "code-session-export"
+version = "0.4.0"
+description = "Export and sanitize local code assistant sessions"
+requires-python = ">=3.9"
+readme = "README.md"
+dependencies = []
+
+[project.scripts]
+code-session-export = "code_session_export:main"
+
+[build-system]
+requires = ["setuptools>=77.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["code_session_export"]
